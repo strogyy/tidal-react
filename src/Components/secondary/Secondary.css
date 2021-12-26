@@ -1,0 +1,131 @@
+.secondary-container {
+  color: #fff;
+  background-color: black;
+  height: 1200px;
+}
+
+.boxes-container {
+  align-items: center;
+  display: flex;
+  height: 1200px;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxes-container h1 {
+  margin-bottom: 90px;
+  font-size: 50px;
+  text-align: center;
+}
+.boxes {
+  display: flex;
+}
+
+.box {
+  margin: 40px;
+  height: 630px;
+  width: 400px;
+  border-radius: 20px;
+  color: #35373d;
+  transition: 0.2s;
+}
+.box1 {
+  background-color: rgba(96, 199, 194, 0.98);
+}
+
+.box1:hover {
+  background-color: rgba(125, 233, 227, 0.98);
+  box-shadow: 0px 2px 2px 15px rgba(189, 255, 252, 0.192);
+}
+.box2 {
+  background-color: #ffb972;
+}
+.box2:hover {
+  background-color: #fdc185;
+  box-shadow: 0px 2px 2px 15px #ffdcba3f;
+}
+.box-texts {
+  margin: 35px;
+}
+
+.box h3 {
+  font-size: 38px;
+}
+
+.box p {
+  margin-bottom: 60px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.box h4 {
+  padding: 18px;
+}
+.h4-container {
+  background-color: rgba(94, 252, 252, 0.158);
+  padding: 10px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.box2 .h4-container {
+  background-color: #ffc78fd3 !important;
+}
+.check {
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+.btm-bxs {
+  margin-top: 30px;
+}
+.btm-bxs a {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .boxes-container h1 {
+    margin: 80px 20px 30px 30px;
+  }
+  .box {
+    width: 380px;
+    margin: 20px;
+  }
+}
+@media (max-width: 858px) {
+  .box {
+    height: auto;
+    width: 320px;
+  }
+}
+@media (max-width: 768px) {
+  .boxes {
+    flex-direction: column;
+  }
+  .secondary-container {
+    height: auto;
+  }
+  .boxes-container {
+    height: auto;
+  }
+  .boxes-container h1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .box {
+    height: auto;
+    width: 80%;
+    margin: auto;
+  }
+  .box1 {
+    margin-bottom: 25px;
+  }
+  .btm-bxs {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 362px) {
+  .boxes-container h1 {
+    font-size: 40px;
+  }
+}
